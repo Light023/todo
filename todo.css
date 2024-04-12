@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #cebea4;
+  color: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.main {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.navbar {
+  color: white;
+  padding: 20px 0px;
+  display: flex;
+}
+
+.nav-p {
+  margin-right: 100px;
+  color: #dfcdb1;
+  font-size: 12px;
+}
+
+.navbar img {
+  margin-left: 300px;
+}
+
+.p-span {
+  color: #ff5231;
+}
+/* .navbar h1 {
+  margin: 0;
+} */
+
+.boxOne-parent-div {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  align-items: center;
+  border-radius: 20px;
+  height: 25vh;
+  width: 360px;
+  border: 1px solid #71685b;
+}
+
+.boxOne-firstkid {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxOne-secondkid {
+  height: 14vh;
+  width: 29%;
+  border-radius: 50%;
+  background-color: #ff5231;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 60px;
+}
+
+.boxOne-h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #dfcdb1;
+}
+
+.boxOne-p {
+  font-size: 13px;
+  color: #908574;
+}
+
+.container {
+  width: 600px;
+  padding: 0 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div {
+  display: flex;
+  padding: 20px 0px;
+}
+
+.input-div img {
+  position: absolute;
+  margin-left: 265px;
+  margin-top: 6px;
+}
+
+#newTodoInput {
+  padding: 15px 13px;
+  border-radius: 20px;
+  width: 255px;
+  height: 5vh;
+  border: 5px light #71685b;
+  background-color: black;
+  color: #dfcdb1;
+  margin-right: 25px;
+}
+
+.todo {
+  margin-bottom: 10px;
+  border: 1px solid #71685b;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 10px;
+  align-items: center;
+}
+
+.todo .edit-input {
+  display: none;
+}
+
+.todo .save-btn {
+  display: none;
+}

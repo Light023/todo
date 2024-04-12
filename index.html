@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar">
+        <p class="nav-p">XERO<span class="p-span">TODO</span></p>
+        <img src="img/upload.png" alt="" />
+      </nav>
+      <div class="boxOne-parent-div">
+        <div class="boxOne-firstkid">
+          <p class="boxOne-h2">Todo Done</p>
+          <p class="boxOne-p">Keep it up</p>
+        </div>
+        <div id="boxOne-secondkid" class="boxOne-secondkid">
+          <h1 id="status" class="boxOne-secondkid-h1">0/0</h1>
+        </div>
+      </div>
+      <div class="container">
+        <div class="input-div">
+          <input
+            type="text"
+            id="newTodoInput"
+            placeholder="Type your new todo here"
+          />
+          <img id="addTodoBtn" src="img/addtask.png" alt="" />
+        </div>
+        <div id="todoList"></div>
+      </div>
+    </div>
+    <script src="todo.js"></script>
+  </body>
+</html>
